@@ -16,11 +16,19 @@ body
   color:            blue
   background-color: red
 ```
+`=`:
+```stylus
+body
+  $varFoo = blue
+  $varOther = red
+  $varLast = $externalVar
+```
 
 ## Installation
 Aligner must be installed along with this package. For more information, please check out [Aligner](https://github.com/adrianlee44/atom-aligner)
 
 ## Changelog
+- 2017-10-11   v1.2.0   Add support for `=`, `.styl` and markup in `.vue` component files
 - 2017-05-15   v1.1.0   Add support for `:`
 - 2017-05-13   v1.0.1   Update documentation
 - 2016-04-16   v1.0.0   Initial release

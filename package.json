@@ -8,7 +8,8 @@
     "aligner",
     "alignment",
     "align",
-    "stylus"
+    "stylus",
+    "vue"
   ],
   "license": "MIT",
   "engines": {
